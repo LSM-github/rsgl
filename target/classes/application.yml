@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/personal_management_system?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+  mvc:
+    view:
+      suffix: .jsp
+      prefix: /WEB-INF/jsp/
+    resources:
+      static-location: /**
+logging:
+  level:
+    root: error
+    com.nine_group: debug
+servlet:
+  multipart:
+    enabled: true #是否启用http上传处理
+    max-request-size: 100MB #最大请求文件的大小
+    max-file-size: 20MB #设置单个文件最大长度
+
+mybatis-plus:
+#  global-config:
+#    db-config:
+#      table-prefix: rsgl_
+#      id-type: auto
+  mapper-locations: classpath:/mapper/*.xml

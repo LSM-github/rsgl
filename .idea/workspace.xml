@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="542ba671-64f5-4553-93a0-5b96615a66fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/Vo/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/controller/PositionTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/controller/ProfessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/DepPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/DepartmentPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/DepartmentUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/PosPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/PositionTypeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/PositionTypePermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/PositionTypeUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/ProPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/ProfessionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/ProfessionPermissionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/mapper/ProfessionUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/DepartmentPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/PositionTypePermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/PositionTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/ProfessionPermissionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/ProfessionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/impl/DepartmentPermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/impl/PositionTypePermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/impl/PositionTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/impl/ProfessionPermissionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/impl/ProfessionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/WEB-INF/jsp/info/department.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/WEB-INF/jsp/info/position.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/WEB-INF/jsp/info/profession.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/.idea/dataSources/c5671b46-1907-4f67-92a8-db2bb661b121.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/.idea/dataSources/c5671b46-1907-4f67-92a8-db2bb661b121.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/pojo/Department.java" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/pojo/Department.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/impl/DepartmentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/src/main/java/com/nine_group/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/WEB-INF/jsp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/WEB-INF/jsp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/WEB-INF/jsp/sys/widgets.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/assets/css/amaze.css" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/assets/css/amaze.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/src/main/webapp/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NineGroup_project/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/NineGroup_project/target/classes/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="xxxMapper" />
+        <option value="Class" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1cJ6JpttnGbucjJY0CGrhvClgTT" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>General</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Duplicates</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="ivu-modal-content&#9;null&#9;null" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1590149809885" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/nine_group/pojo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\QQ下载\NineGroup_project\src\main\webapp\WEB-INF\jsp\sys" />
+      <recent name="D:\QQ下载\NineGroup_project\src\main\webapp\WEB-INF\jsp" />
+      <recent name="D:\QQ下载\NineGroup_project\src\main\resources" />
+      <recent name="D:\QQ下载\NineGroup_project\src\main\java\com\nine_group\controller\config" />
+      <recent name="D:\QQ下载\NineGroup_project\src\main\webapp\WEB-INF\jsp\info" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nine_group.service.impl" />
+      <recent name="com.nine_group.service" />
+      <recent name="com.nine_group.mapper" />
+      <recent name="com.nine_group.controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\QQ下载\NineGroup_project\src\main\webapp\comm" />
+      <recent name="D:\QQ下载\NineGroup_project\src\main\webapp\WEB-INF\jsp\per" />
+      <recent name="E:\代码\idea代码\NineGroup_project\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.nine_group.Test" />
+      <module name="NineGroup_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nine_group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="NineGroup_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nine_group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.nine_group.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Application" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="542ba671-64f5-4553-93a0-5b96615a66fa" name="Default Changelist" comment="" />
+      <created>1589328032001</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589328032001</updated>
+      <workItem from="1589328038869" duration="2015000" />
+      <workItem from="1589332819698" duration="22688000" />
+      <workItem from="1589414679341" duration="35424000" />
+      <workItem from="1589501441177" duration="2800000" />
+      <workItem from="1589505463550" duration="3802000" />
+      <workItem from="1589510263521" duration="3751000" />
+      <workItem from="1589514452086" duration="829000" />
+      <workItem from="1589515407970" duration="1478000" />
+      <workItem from="1589521063778" duration="913000" />
+      <workItem from="1589522104597" duration="2116000" />
+      <workItem from="1589524362369" duration="260000" />
+      <workItem from="1589524653408" duration="8355000" />
+      <workItem from="1589588626632" duration="28680000" />
+      <workItem from="1589634660057" duration="191000" />
+      <workItem from="1589684982643" duration="1425000" />
+      <workItem from="1589759363703" duration="15011000" />
+      <workItem from="1589788426359" duration="869000" />
+      <workItem from="1589848964610" duration="8318000" />
+      <workItem from="1589857735134" duration="19184000" />
+      <workItem from="1589933671352" duration="3195000" />
+      <workItem from="1590019151975" duration="19313000" />
+      <workItem from="1590055025727" duration="7293000" />
+      <workItem from="1590106480116" duration="16978000" />
+      <workItem from="1590227979785" duration="4000" />
+      <workItem from="1590234294735" duration="1399000" />
+      <workItem from="1590235851124" duration="350000" />
+      <workItem from="1590281737624" duration="9831000" />
+      <workItem from="1590368484949" duration="4647000" />
+      <workItem from="1590374499544" duration="7866000" />
+      <workItem from="1590394203851" duration="10458000" />
+      <workItem from="1590404782333" duration="7546000" />
+      <workItem from="1590412630492" duration="2999000" />
+      <workItem from="1590453749533" duration="7289000" />
+      <workItem from="1590461655736" duration="1082000" />
+      <workItem from="1590463180236" duration="877000" />
+      <workItem from="1590464086165" duration="945000" />
+      <workItem from="1590465087433" duration="11926000" />
+      <workItem from="1590492018853" duration="301000" />
+      <workItem from="1590492372539" duration="3414000" />
+      <workItem from="1590496041453" duration="532000" />
+      <workItem from="1590496693153" duration="265000" />
+      <workItem from="1590503567359" duration="4671000" />
+      <workItem from="1590537928633" duration="5147000" />
+      <workItem from="1590565386561" duration="15079000" />
+      <workItem from="1590627114292" duration="322000" />
+    </task>
+    <task id="LOCAL-00001" summary="一次">
+      <created>1589521373995</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589521373995</updated>
+    </task>
+    <task id="LOCAL-00002" summary="gybnnh">
+      <created>1589522439208</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589522439209</updated>
+    </task>
+    <task id="LOCAL-00003" summary="First       NineGroup_project">
+      <created>1589529524707</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589529524707</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="一次" />
+    <MESSAGE value="gybnnh" />
+    <MESSAGE value="First       NineGroup_project" />
+    <option name="LAST_COMMIT_MESSAGE" value="First       NineGroup_project" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="179" y="202" key="#Template_Data_Languages" timestamp="1590383126985">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="179" y="202" key="#Template_Data_Languages/0.0.1366.738@0.0.1366.738" timestamp="1590383126985" />
+    <state x="488" y="76" key="#com.intellij.ide.util.MemberChooser" timestamp="1590541746916">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="76" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1590541746916" />
+    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1590581221963">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1590581221963" />
+    <state x="507" y="271" key="Gitee.CreateGistDialog" timestamp="1590541325518">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="507" y="271" key="Gitee.CreateGistDialog/0.0.1366.738@0.0.1366.738" timestamp="1590541325518" />
+    <state width="1323" height="446" key="GridCell.Tab.0.bottom" timestamp="1590581459103">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="446" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590581459103" />
+    <state width="1323" height="446" key="GridCell.Tab.0.center" timestamp="1590581459102">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="446" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1590581459102" />
+    <state width="1323" height="446" key="GridCell.Tab.0.left" timestamp="1590581459102">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="446" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1590581459102" />
+    <state width="1323" height="446" key="GridCell.Tab.0.right" timestamp="1590581459103">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="446" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1590581459103" />
+    <state width="1323" height="446" key="GridCell.Tab.1.bottom" timestamp="1590581459103">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="446" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590581459103" />
+    <state width="1323" height="446" key="GridCell.Tab.1.center" timestamp="1590581459103">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="446" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1590581459103" />
+    <state width="1323" height="446" key="GridCell.Tab.1.left" timestamp="1590581459103">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="446" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1590581459103" />
+    <state width="1323" height="446" key="GridCell.Tab.1.right" timestamp="1590581459103">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="446" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1590581459103" />
+    <state width="1323" height="218" key="GridCell.Tab.2.bottom" timestamp="1590412417803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.2.bottom/0.0.1366.738@0.0.1366.738" timestamp="1590412417803" />
+    <state width="1323" height="218" key="GridCell.Tab.2.center" timestamp="1590412417802">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.2.center/0.0.1366.738@0.0.1366.738" timestamp="1590412417802" />
+    <state width="1323" height="218" key="GridCell.Tab.2.left" timestamp="1590412417802">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.2.left/0.0.1366.738@0.0.1366.738" timestamp="1590412417802" />
+    <state width="1323" height="218" key="GridCell.Tab.2.right" timestamp="1590412417803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="218" key="GridCell.Tab.2.right/0.0.1366.738@0.0.1366.738" timestamp="1590412417803" />
+    <state x="337" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590505757499">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="337" y="48" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1366.738@0.0.1366.738" timestamp="1590505757499" />
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1590572213037">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="346" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1590572213037" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
